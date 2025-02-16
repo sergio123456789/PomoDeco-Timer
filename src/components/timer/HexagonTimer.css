@@ -1,0 +1,134 @@
+.hexagon-timer {
+  position: relative;
+  width: 100%;
+  height: 100%; /* Se adapta al contenedor */
+  aspect-ratio: 2 / 1; /* Mantiene la proporción 2:1 */
+  background: url('../../../public/reloj.svg') no-repeat center center;
+  background-size: cover;
+  margin: 0 auto;
+}
+
+.time-h2text {
+  font-size: 2.5rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #d4af37; /* Detalle dorado */
+}
+
+.time-text {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 4rem;
+  font-family: 'Futura', sans-serif;
+  -webkit-text-stroke: 1px #d4af37;
+  color: #f1e6d6;
+  z-index: 1;
+  text-align: center;
+}
+
+@media (min-width: 100px) {
+  .hexagon-timer {
+    max-width: 210px;
+    height: 242px;
+  }
+  .time-text {
+    font-size: 1.5rem; 
+  }
+  .time-h2text {
+    font-size: 1.4rem;
+  }
+}
+
+@media (min-width: 320px) {
+  .hexagon-timer {
+    max-width: 210px; 
+    height: 242px;
+  }
+  .time-text {
+    font-size: 2rem; 
+  }
+  .time-h2text {
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 360px) {
+  .hexagon-timer {
+    height: 300px;
+    max-width: 260px;
+  }
+  .time-text {
+    font-size: 2rem;
+  }
+  .time-h2text {
+    font-size: 1.6rem;
+  }
+}
+
+@media (min-width: 460px) {
+  .hexagon-timer {
+    height: 369px;
+    max-width: 320px;
+  }
+  .time-text {
+    font-size: 2.5rem;
+  }
+  .time-h2text {
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 580px) {
+  .hexagon-timer {
+    height: 415px;
+    max-width: 360px;
+  }
+  .time-text {
+    font-size: 3rem;
+  }
+  .time-h2text {
+    font-size: 2.2rem;
+  }
+}
+
+@media (min-width: 769px) {
+  .hexagon-timer {
+    height: 404px;
+    max-width: 350px;
+  }
+  .time-text {
+    font-size: 3rem;
+  }
+  .time-h2text {
+    font-size: 2.5rem;
+  }
+}
+
+@media (min-width: 850px) {
+  .hexagon-timer {
+    height: 415.4px;
+    max-width: 360px;
+  }
+  .time-text {
+    font-size: 3rem;
+  }
+  .time-h2text {
+    font-size: 2.5rem;
+  }
+}
+
+@media (min-width: 1025px) {
+  .hexagon-timer {
+    height: 461.5px;
+    max-width: 400px;
+  }
+  .time-text {
+    font-size: 4rem;
+  }
+  .time-h2text {
+    font-size: 2.8rem;
+  }
+}

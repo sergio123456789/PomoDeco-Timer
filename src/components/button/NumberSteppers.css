@@ -1,0 +1,50 @@
+.divnumberstepper {
+  border: 1.6px solid #d4af37;
+  border-radius: 8px;
+}
+
+.buttonnumberstepper {
+  border-radius: 8px;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  background-color: transparent;
+  color: #d4af37;
+  border: 2px solid #d4af37;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-left: -2px;
+  margin-right: -2px;
+}
+.buttonnumberstepper:hover {
+  background-color: #d4af37;
+  color: #fff;
+}
+
+.inputnumberstepper {
+  width: 3ch;
+}
+
+.inputnumberstepper::-webkit-outer-spin-button,
+.inputnumberstepper::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.inputnumberstepper {
+  width: 4ch;
+  text-align: center;
+  padding: 5px;
+  border: 2px solid #d4af37;
+  background: transparent;
+  color: #d4af37;
+  font-size: 1.1rem;
+}
+
+.inputnumberstepper::-webkit-outer-spin-button,
+.inputnumberstepper::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.inputnumberstepper {
+  -moz-appearance: textfield;
+}

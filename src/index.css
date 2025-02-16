@@ -1,0 +1,16 @@
+body {
+  background: radial-gradient(
+    circle at center,
+    #27ae60 0%,
+    rgb(28, 143, 76) 25%,
+    rgb(20, 119, 62) 35%,
+    rgb(9, 71, 35) 55%,
+    #021f18 100%
+  );
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  border: 3px solid #d4af37;
+  width: 100vw;
+  height: 100vh;
+}

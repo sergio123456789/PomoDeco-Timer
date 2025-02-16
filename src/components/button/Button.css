@@ -1,0 +1,61 @@
+.button-container {
+  display: flex;
+  gap: 15px;
+  margin-top: 50px;
+  justify-content: center;
+}
+
+.buttondeco {
+  position: relative;
+  background: url('../../../public/marco.svg') no-repeat center center;
+  background-size: 100% 100%;
+  font-size: 2em;
+  background-color: transparent;
+  color: #d4af37;
+  border: 0;
+  cursor: pointer;
+  width: 300px;
+  height: 80px;
+  overflow: hidden;
+  transition: background-size 0.3s ease;
+}
+
+.flecha:hover ~ .buttondeco {
+  background-size: 115% 115%;
+}
+
+.buttondeco:hover {
+  background-size: 115% 115%;
+}
+
+@media (max-width: 480px) {
+  .buttondeco {
+    width: 240px;
+    height: 60px;
+    font-size: 1.5em;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .buttondeco {
+    width: 280px;
+    height: 70px;
+    font-size: 1.75em;
+  }
+}
+
+@media (min-width: 769px) {
+  .buttondeco {
+    width: 320px;
+    height: 80px;
+    font-size: 2em;
+  }
+}
+
+@media (min-width: 1200px) {
+  .buttondeco {
+    width: 360px;
+    height: 90px;
+    font-size: 2.2em;
+  }
+}

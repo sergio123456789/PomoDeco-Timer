@@ -47,7 +47,7 @@ function App() {
           xs={12}
           className="d-flex justify-content-center align-items-center"
         >
-          <h2 className="h2text">PomoDeco Time</h2>
+          <h2 className="h2text">PomoDeco Timer</h2>
         </Col>
       </Row>
 
